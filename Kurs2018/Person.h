@@ -16,7 +16,8 @@ class Person
 	int age;
 	int height;
 	int weight;
-	gender g;
+	gender _gender;
+	string factory;
 	
 public:
 	Person();
