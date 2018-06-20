@@ -1,7 +1,7 @@
 #pragma once
 enum Job
 {
-	assistant = 0,
+	assistant,
 	worker,
 	manager,
 	PreDirector,

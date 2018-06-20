@@ -1,2 +1,2 @@
 #pragma once
-enum gender {male = 0,female = 1};
+enum gender {male,female};

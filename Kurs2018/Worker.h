@@ -1,7 +1,6 @@
 #pragma once
 #include "Person.h"
-#include "Object.h"
-#include "Job.h";
+#include "Job.h"
 class Worker :
 	public Person
 {
@@ -10,46 +9,24 @@ class Worker :
 	int payment;
 public:
 	Worker();
-	Worker(const string &firstName0, const string &lastName0, int age0, int height0, 
-		int weight0, const string &gender0, string &zavod0, string &level0, int payment0);
+	Worker(string &zavod0, string &level0, int payment0);
 	void Print();
 	void Enter();
 	void ChangeJob();
 	void ChooseZavod();
 	void ChangePayment(char c);
 	virtual ~Worker();
-	void ChangeStandartPay()
+	void ChangeStandartPay();
 };
 
 
 
 
-public:
+/*public:
 	Person() :
 		
 }
-	Person(const string &firstName0, const string &lastName0, int age0, int height0, int weight0, const string &gender0, string &zavod0, string &level0, int payment0)
-	{
-		firstName = firstName0;
-		lastName = lastName0;
-		age = age0;
-		gender = gender0;
-		zavod = zavod0;
-		level = level0;
-		payment = payment0;
-		if (height0<0)
-			throw "Error";
-		else
-			height = height0;
-		if (weight0<0)
-			throw "Error";
-		else
-			weight = weight0;
-		if (age0<0)
-			throw "Error";
-		else
-			age = age0;
-	}
+	
 	//correct
 	void Enter()
 	{
@@ -311,4 +288,4 @@ int main()
 	C.ChoiceRabota();
 
 	return 0;
-}
+}*/
