@@ -39,7 +39,7 @@ unsigned int Electrician::GetRank() const
 
 Object* Electrician::GetObject()
 {
-	return object;
+	return *object;
 }
 
 bool Electrician::operator==(const Electrician& e) //Реализация унарного оператора сравнения

@@ -12,7 +12,7 @@ public:
 	Electrician(Object* o,int stage, int rank);
 	bool JobApplication(Object* o);//Подаем заявку на работу
 	void ChangeObject(Object* o);//Меняем объект
-	unsigned int GetStage()const; 
+	unsigned int GetStage()const;
 	unsigned int GetRank()const;
 	Object* GetObject();
 	bool operator == (const Electrician& e); //оператор сравнения
