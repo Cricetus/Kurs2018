@@ -32,7 +32,6 @@ Person::Person(const string& firstName0, const string& lastName0, int age0, int 
 }
 bool Person::IsAdult()
 {
-	
 	return ((age > 18) ? true:false);
 }
 

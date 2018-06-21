@@ -42,7 +42,7 @@ bool Object::ReceiveCV(const Electrician& e)
 	}
 }
 
-bool Object::Hire(const Electrician&  e)//ƒанные методы добавл€ют и удал€ют электриков из векторов рабочих,
+bool Object::Hire(const Electrician&  e) //ƒанные методы добавл€ют и удал€ют электриков из векторов рабочих,
 													//при этом присваивают указатель на этот объект рабочему 
 {	
 	if (IsPresentInCL(e)) { //

@@ -23,7 +23,7 @@ public:
 	Person(const string& firstName0, const string& lastName0, int age0, int height0,
 		int weight0, gender gender0);
 	bool IsAdult();//Методы из варианта
-	bool IsLean();//
+	bool IsLean();//....
 	string GetName()const;
 	unsigned int GetAge() const;
 	unsigned int GetWeight() const;

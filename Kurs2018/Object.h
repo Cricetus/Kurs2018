@@ -16,8 +16,8 @@ class Object
 public:
 	Object();
 	bool IsPresentInCL(const Electrician& e);
-	void ProspectivesOverview()const;
 	bool ReceiveCV(const Electrician& e);
+	void ProspectivesOverview()const;
 	bool Hire(const Electrician& e);
 	void Fire(const Electrician& e);
 	~Object();

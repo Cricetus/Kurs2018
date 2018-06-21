@@ -1,8 +1,7 @@
 #pragma once
 #include "Person.h"
 #include "Job.h"
-class Worker :
-	public Person
+class Worker : public Person
 {
 	string factory;
 	string level;

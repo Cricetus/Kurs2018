@@ -28,9 +28,9 @@ public:
 bool operator == (const Electrician& e1, const Electrician& e2)
 {
 	return (e1.GetName() == e2.GetName()
-		&& e1.GetAge() == e2.GetAge() && e2.GetHeight() == e2.GetHeight()
-		&& e1.GetWeight() == e2.GetWeight() && e1.GetGender() == e2.GetGender()
-		&& e1.GetObject() == e2.GetObject() && e1.GetStage() == e2.GetStage()
-		&& e1.GetRank() == e2.GetRank()
+			&& e1.GetAge() == e2.GetAge() && e2.GetHeight() == e2.GetHeight()
+			&& e1.GetWeight() == e2.GetWeight() && e1.GetGender() == e2.GetGender()
+			&& e1.GetObject() == e2.GetObject() && e1.GetStage() == e2.GetStage()
+			&& e1.GetRank() == e2.GetRank()
 		);
 }

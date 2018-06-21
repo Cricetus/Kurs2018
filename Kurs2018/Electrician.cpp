@@ -27,7 +27,7 @@ void Electrician::ChangeObject(Object* o)
 	
 }
 
-unsigned int Electrician::GetStage() const
+unsigned int Electrician::GetStage()const
 {
 	return stage;
 }

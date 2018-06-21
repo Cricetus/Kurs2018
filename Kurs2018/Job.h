@@ -1,4 +1,5 @@
 #pragma once
+//Для определения должности рабочего
 enum Job
 {
 	assistant,
